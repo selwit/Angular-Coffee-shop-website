@@ -1,0 +1,33 @@
+<!--navbar-->
+<nav class="navbar navbar-expand-lg   p-md-3 fixed-top container-one">
+    <div  class="container-fluid container-1">
+
+      <a class="navbar-brand " routerlink= '/home' routerLinkActive="active">
+        <img [src]="mainlogo" alt="logo" width="70" height="64" class="  b-inline-block align-text-center navbarlogo" />
+        DreamCoffee
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarScroll" style="width: 5px;">
+        <ul class="navbar-nav  my-2 my-lg-0 ">
+          <li>
+            <a class="nav-link dropdown-item  m-2 p-3" aria-current="page" routerLink= '/home' routerLinkActive="active">Home</a>
+          </li>
+          <li >
+            <a class="nav-link dropdown-item m-2 p-3 " routerLink= '/menu'  routerLinkActive="active" routerLinkActive="active">Menu</a>
+          </li>
+          
+          <li><a class=" nav-link dropdown-item m-2 p-3" routerLink= '/payhere' routerLinkActive="active">Payment</a></li>
+          <li><a class="nav-link dropdown-item m-2 p-3" routerLink= '/contact-us' routerLinkActive="active">Contact-Us</a></li>
+              
+          <li><a class="nav-link dropdown-item m-2 p-3" routerLink= '/about-us' routerLinkActive="active">about-us</a></li>
+            </ul>
+          
+        
+      </div>
+    </div>
+  </nav>
+  <!--navbar-->
+  

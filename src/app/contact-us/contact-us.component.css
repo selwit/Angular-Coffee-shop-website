@@ -1,0 +1,50 @@
+.payment-container1 {
+    position: absolute;
+    top: 25vh;
+    background-image: url(../../assets/img/cup3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 120%;
+    width: 55%;
+    
+  }
+  
+
+  .mapp{
+    top: 20rem;
+    margin: 20px;
+    box-shadow: 40px 0 40px;
+  }
+  /* flip-card */
+  .contact-container{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .form-height{
+    
+    min-height: 50vh;
+    width: 70rem;
+    margin: 20px;
+    border: 8px solid rgb(117, 115, 110);
+    border-radius: 10rem;
+    padding: 10rem;
+    box-shadow:40px 0 40px 10px ;
+  }
+  
+  .form-label{
+    margin: 1rem;
+  }
+  .font1{
+font-size: 4rem;
+color: rgb(216, 190, 40);
+  }
+  .font2{
+    font-size: 2.5rem;
+      }
+  

@@ -1,0 +1,52 @@
+/* Navbar*/
+.navbar{
+    font-size: 140%;
+    background: #6D6027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #D3CBB8, #6D6027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #D3CBB8, #6D6027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #544a1b ;
+  font-weight: 60px;
+  
+  }
+  nav a.active{
+    background-color: darkkhaki;
+  }
+  .navbar-toggler {
+    text-decoration: none !important;
+  }
+  
+  ul li #navbarScroll{
+    display: flex !important;
+    flex-basis: auto;
+      justify-content: center;
+      align-items: center;
+      
+      float:right !important;
+      margin-left: 50px !important;
+      position: relative !important;
+      
+    
+  }
+  li a{
+    
+    border-radius: 2rem;
+  }
+  
+  .dropdown-item{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #544a1b;
+    display: block;
+    width: 90%;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  a.navbar-brand{
+    
+    font-size: 35px;
+    font-weight: 20rem;
+  }
+  .nav-link{
+    color: #544a1b;
+  }
+  
